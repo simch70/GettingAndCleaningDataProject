@@ -59,5 +59,5 @@ tidySet <- dcast(setMelt, activity_name + subject ~ variable, mean)
 
 # 6. Writes tidy data set
 
-write.table(tidySet, file = "./assessment.txt", row.names=FALSE)
+write.table(tidySet, file = "./dataset.txt", row.names=FALSE)
 
